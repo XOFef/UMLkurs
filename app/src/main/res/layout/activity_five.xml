@@ -44,6 +44,24 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/img_19" />
 
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Задача"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="99dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/img_33" />
+
             <Button
                 android:id="@+id/btn_one2"
                 android:layout_width="match_parent"
@@ -52,6 +70,24 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="8dp"
                 android:text="Прочитано" />
+
+            <Button
+                android:id="@+id/btnAn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="Показать ответ" />
+
+            <ImageView
+                android:id="@+id/imAn5"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitXY"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/img_34" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
